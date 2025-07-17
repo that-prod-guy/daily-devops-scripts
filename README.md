@@ -38,8 +38,8 @@ Welcome to the **Daily DevOps Scripts** — a structured collection of modular s
 
 ```bash
 # Clone the repository
-git clone https://github.com/that-prod-guy/devops-bash-scripts.git
-cd devops-bash-scripts
+git clone https://github.com/that-prod-guy/daily-devops-scripts.git
+cd daily-devops-scripts
 
 # Navigate to the folder you need
 cd Deploy-react-app
@@ -60,5 +60,5 @@ Give it a **Star** if you liked it!
 
 ## Contributer
 <a href = "https://daoudhussain.netlify.app/">
-  <img src = "https://contrib.rocks/image?repo=that-prod-guy/devops-bash-scripts"/>
+  <img src = "https://contrib.rocks/image?repo=that-prod-guy/daily-devops-scripts"/>
 </a>
