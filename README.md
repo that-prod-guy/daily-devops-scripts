@@ -19,7 +19,13 @@ Welcome to the **Daily DevOps Scripts** — a structured collection of modular s
 
 ### 📁 `Node-backends/`
 
-**Coming soon:** Scripts for PM2 setup, MongoDB/Nginx reverse proxies, and SSL for Express apps.
+
+| Script               | Description                                                                |
+|----------------------|----------------------------------------------------------------------------|
+| `deploy_node_app.sh`    | Clones and deploys a Node.js app using PM2                                |
+| `nginx-setup.sh`     | Installs and configures Nginx as a reverse proxy for Node                 |
+| `install-ssl.sh`     | Installs SSL (Let's Encrypt) for your domain using Certbot + Nginx plugin  |
+
 
 ### 📁 `Python-scripts/`
 
