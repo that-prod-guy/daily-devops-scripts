@@ -15,7 +15,13 @@ Welcome to the **Daily DevOps Scripts** — a structured collection of modular s
 
 ### 📁 `Docker-apps/`
 
-**Coming soon:** Scripts to automate container builds, volumes, multi-container setups, and CI/CD.
+
+
+| Script               | Description                                                                |
+|----------------------|----------------------------------------------------------------------------|
+| `deploy-docker-app.sh`    | Clones and deploys a Docker-based application using Docker or Docker Compose                                |
+| `nginx-setup.sh`     | Installs and configures Nginx as a reverse proxy for the running Docker app                |
+| `install-ssl.sh`     | Installs SSL (Let's Encrypt) for your Docker app domain using Certbot + Nginx  |
 
 ### 📁 `Node-backends/`
 
