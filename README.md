@@ -32,6 +32,13 @@ Welcome to the **Daily DevOps Scripts** — a structured collection of modular s
 | `nginx-setup.sh`     | Installs and configures Nginx as a reverse proxy for Node                 |
 | `install-ssl.sh`     | Installs SSL (Let's Encrypt) for your domain using Certbot + Nginx plugin  |
 
+### 📁 `Deploy Wordpress Site/`
+
+| Script              | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| `deploy-wordpress.sh` | Installs WordPress along with Apache, MySQL, PHP, and sets up wp-config     |
+| `apache-setup.sh`     | Configures Apache virtual host for the WordPress domain                     |
+| `install-ssl.sh`      | Installs SSL (Let's Encrypt) for your WordPress site using Certbot + Apache |
 
 ### 📁 `Python-scripts/`
 
