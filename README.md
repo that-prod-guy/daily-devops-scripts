@@ -42,7 +42,12 @@ Welcome to the **Daily DevOps Scripts** — a structured collection of modular s
 
 ### 📁 `Python-scripts/`
 
-**Coming soon:** Scripts to deploy Flask/FastAPI apps, configure Gunicorn + Nginx, virtualenv setup, etc.
+| Script               | Description                                                                       |
+|----------------------|-----------------------------------------------------------------------------------|
+| `deploy-python-app.sh` | Clones and deploys a Python (Flask/FastAPI) app using Gunicorn and virtual-env    |
+| `nginx-setup.sh`     | Installs and configures Nginx as a reverse proxy to Gunicorn                      |
+| `install-ssl.sh`     | Installs SSL (Let's Encrypt) for your domain using Certbot + Nginx plugin         |
+
 
 ### 📁 `Dotnet-applications/`
 
@@ -61,7 +66,7 @@ git clone https://github.com/that-prod-guy/daily-devops-scripts.git
 cd daily-devops-scripts
 
 # Navigate to the folder you need
-cd Deploy-react-app
+cd Deploy-React-app
 
 # Make scripts executable
 chmod +x *.sh
